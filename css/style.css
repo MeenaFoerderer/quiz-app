@@ -4,7 +4,8 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .container {
@@ -31,7 +32,7 @@ h1 {
   margin: 0;
   padding: 50px 0;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 50px;
   text-shadow: 1px 1px #191919;
 }
 
@@ -48,6 +49,7 @@ section {
   padding: 10px 30px;
   background-color: #fff;
   border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .card {
@@ -67,6 +69,7 @@ section {
   _color: #e6e8e6;
   color: #fa9b81;
   font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .answer {
