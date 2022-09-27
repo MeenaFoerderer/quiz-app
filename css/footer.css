@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  width: 50px;
+}
+
+.icon-footer {
+  width: 70px;
+}
