@@ -6,6 +6,8 @@ section {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /*box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+    0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);*/
 }
 
 .card {
@@ -22,7 +24,7 @@ section {
   border: none;
   border-radius: 10px;
   _color: #e6e8e6;
-  color: #fa9b81;
+  color: var(--button-text-color);
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
