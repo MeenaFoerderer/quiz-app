@@ -1,13 +1,11 @@
 footer {
   display: flex;
   justify-content: space-evenly;
-}
-
-.bookmark-icon {
-  position: absolute;
-  top: -25px;
-  right: -10px;
-  width: 50px;
+  border-left: var(--outer-border);
+  border-right: var(--outer-border);
+  border-bottom: var(--outer-border);
+  border-radius: 0 0 20px 20px;
+  padding: 25px 0;
 }
 
 .icon-footer {
