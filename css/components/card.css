@@ -1,0 +1,29 @@
+.card-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: -12px;
+  right: 5px;
+  width: 50px;
+}
+
+.show-btn {
+  padding: 20px 45px;
+  background-color: var(--dark-base-color);
+  color: var(--button-color);
+}
+
+.show-btn:hover {
+  background-color: #ced0ce;
+  color: var(--dark-base-color);
+  cursor: pointer;
+}
+
+.answer {
+  margin-top: 30px;
+}
