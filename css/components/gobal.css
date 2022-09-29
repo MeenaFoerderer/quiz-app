@@ -8,12 +8,16 @@
 }
 
 :root {
-  --button-text-color: #fa9b81;
+  --dark-base-color: #191919;
+  --button-color: #fa9b81;
   --outer-border: 5px solid black;
+  --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 20px auto;
+  text-align: center;
+  width: 500px;
 }
