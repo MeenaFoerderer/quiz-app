@@ -5,25 +5,42 @@
   flex-direction: column;
 }
 
-.bookmark-icon {
+.card-section__bookmark {
   position: absolute;
   top: -12px;
   right: 5px;
   width: 50px;
 }
 
-.show-btn {
+.card-section__btn {
   padding: 20px 45px;
   background-color: var(--dark-base-color);
   color: var(--button-color);
 }
 
-.show-btn:hover {
+.card-section__btn:hover {
   background-color: #ced0ce;
   color: var(--dark-base-color);
   cursor: pointer;
 }
 
-.answer {
+.card-section__answer {
   margin-top: 30px;
+}
+
+.card__categories {
+  margin-top: 0;
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  top: 280px;
+  left: 20px;
+}
+
+.card__categories--box {
+  margin-top: 0;
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: var(--dark-base-color);
+  border-radius: 5px;
 }
